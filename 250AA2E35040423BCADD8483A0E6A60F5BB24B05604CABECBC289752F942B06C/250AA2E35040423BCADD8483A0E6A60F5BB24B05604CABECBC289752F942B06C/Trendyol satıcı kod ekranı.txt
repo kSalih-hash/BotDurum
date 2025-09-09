@@ -1,0 +1,71 @@
+<bl-dialog caption="Doğrulama Kodunuz Telefon Numaranıza Gönderildi!" polyfilled="" class="otp-modal" open="true">
+  <div class="dialog-content-wrapper">
+    <span class="description">
+      <b>Giriş yapmak</b> için <b class="otp-masked-value">*******5480</b> numaranıza doğrulama kodu gönderilmiştir. Gönderilen 6 haneli kodu aşağıdaki alana girerek doğrulayınız. </span>
+    <div class="input-counter-wrapper">
+      <div data-v-ff070854="" class="otp-input-wrapper otp-input-wrapper">
+        <input data-v-0c66a9a2="" data-v-ff070854="" type="number" min="0" max="9" maxlength="1" pattern="[0-9]" autofocus="autofocus" class="otp-input">
+        <input data-v-0c66a9a2="" data-v-ff070854="" type="number" min="0" max="9" maxlength="1" pattern="[0-9]" autofocus="autofocus" class="otp-input">
+        <input data-v-0c66a9a2="" data-v-ff070854="" type="number" min="0" max="9" maxlength="1" pattern="[0-9]" autofocus="autofocus" class="otp-input">
+        <input data-v-0c66a9a2="" data-v-ff070854="" type="number" min="0" max="9" maxlength="1" pattern="[0-9]" autofocus="autofocus" class="otp-input">
+        <input data-v-0c66a9a2="" data-v-ff070854="" type="number" min="0" max="9" maxlength="1" pattern="[0-9]" autofocus="autofocus" class="otp-input">
+        <input data-v-0c66a9a2="" data-v-ff070854="" type="number" min="0" max="9" maxlength="1" pattern="[0-9]" autofocus="autofocus" class="otp-input">
+      </div>
+      <!---->
+      <div class="resend-remaining-time">
+        <bl-icon name="clock" class="clock-icon"></bl-icon>
+        <div data-v-15eb582b="" class="countdown-wrapper">
+          <span data-v-15eb582b="" class="clock-model"> 04:24 </span>
+        </div>
+      </div>
+    </div>
+    <div class="missing-code-steps-wrapper">
+      <p class="label"> Doğrulama kodu almadıysanız: </p>
+      <div data-v-7ba0eddd="" class="list-wrapper disc">
+        <ul data-v-7ba0eddd="">
+          <li data-v-7ba0eddd="" class="">
+            <div data-v-1ba0ffe2="" data-v-7ba0eddd="" class="g-text- -body g-text">
+              <span data-v-7ba0eddd="" data-v-1ba0ffe2="" class="list-item">Telefon numaranızı kontrol ediniz.</span>
+            </div>
+          </li>
+          <li data-v-7ba0eddd="" class="">
+            <div data-v-1ba0ffe2="" data-v-7ba0eddd="" class="g-text- -body g-text">
+              <span data-v-7ba0eddd="" data-v-1ba0ffe2="" class="list-item">Süre dolduğunda doğrulama kodu almadıysanız, tekrar kod talep edebilirsiniz.</span>
+            </div>
+          </li>
+          <li data-v-7ba0eddd="" class="">
+            <div data-v-1ba0ffe2="" data-v-7ba0eddd="" class="g-text- -body g-text">
+              <span data-v-7ba0eddd="" data-v-1ba0ffe2="" class="list-item">Cihaz hafızasındaki mesajları temizleyebilir, cihaz ayarlarınızdan engellenenler listenizi kontrol edebilirsiniz.</span>
+            </div>
+          </li>
+          <li data-v-7ba0eddd="" class="">
+            <div data-v-1ba0ffe2="" data-v-7ba0eddd="" class="g-text- -body g-text">
+              <span data-v-7ba0eddd="" data-v-1ba0ffe2="" class="list-item">Cihazınızı yeniden başlatabilirsiniz, cihazınızın blacklist ve spam filtreleri kontrol edebilirsiniz.</span>
+            </div>
+          </li>
+          <li data-v-7ba0eddd="" class="">
+            <div data-v-1ba0ffe2="" data-v-7ba0eddd="" class="g-text- -body g-text">
+              <span data-v-7ba0eddd="" data-v-1ba0ffe2="" class="list-item">Cihazda üçüncü kişilerinin aramasını engelleyen, SMS yönlendirme gibi uygulamalar varsa uygulama ayarları kontrol edebilirsiniz.</span>
+            </div>
+          </li>
+          <li data-v-7ba0eddd="" class="">
+            <div data-v-1ba0ffe2="" data-v-7ba0eddd="" class="g-text- -body g-text">
+              <span data-v-7ba0eddd="" data-v-1ba0ffe2="" class="list-item">Telefonunuzda en son versiyon yazılım güncellemesinin olduğundan emin olabilirsiniz. Gerekirse sistem yazılımını güncelleyebilirsiniz.</span>
+            </div>
+          </li>
+          <li data-v-7ba0eddd="" class="">
+            <div data-v-1ba0ffe2="" data-v-7ba0eddd="" class="g-text- -body g-text">
+              <span data-v-7ba0eddd="" data-v-1ba0ffe2="" class="list-item">SIM kartınızı, çalıştığı bilinen başka bir cihaza taşıyarak bu mesajların alımını test edebilirsiniz.</span>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!---->
+  </div>
+  <bl-tooltip slot="secondary-action" class="resend-tooltip"> Süre dolduğunda yeni doğrulama kodu talep etmek için tıklayınız. <bl-button slot="tooltip-trigger" variant="secondary" size="large" disabled="" class="action-button" kind="default"> Yeni Kod Gönder </bl-button>
+  </bl-tooltip>
+  <!---->
+  <!---->
+  <bl-button slot="primary-action" size="large" disabled="" class="action-button --verify" variant="primary" kind="default"> Kodu Doğrula </bl-button>
+</bl-dialog>
